@@ -1,0 +1,675 @@
+{
+  "rooms": [
+    {
+      "id": "living",
+      "name": "The quiet living room",
+      "type": "Living room",
+      "description": "Original illustrated sample",
+      "image": "/assets/living-base.svg",
+      "foreground": "/assets/living-front.svg",
+      "width": 1100,
+      "height": 760,
+      "surfaces": {
+        "wall": {
+          "quad": [
+            [
+              260,
+              60
+            ],
+            [
+              840,
+              60
+            ],
+            [
+              840,
+              410
+            ],
+            [
+              260,
+              410
+            ]
+          ],
+          "meters": [
+            5,
+            3
+          ]
+        },
+        "floor": {
+          "quad": [
+            [
+              260,
+              410
+            ],
+            [
+              840,
+              410
+            ],
+            [
+              1100,
+              760
+            ],
+            [
+              0,
+              760
+            ]
+          ],
+          "meters": [
+            5,
+            5
+          ]
+        }
+      },
+      "color": "#e8e2d6"
+    },
+    {
+      "id": "bath",
+      "name": "A slower morning",
+      "type": "Bathroom",
+      "description": "Original illustrated sample",
+      "image": "/assets/bath-base.svg",
+      "foreground": "/assets/bath-front.svg",
+      "width": 1100,
+      "height": 760,
+      "surfaces": {
+        "wall": {
+          "quad": [
+            [
+              260,
+              60
+            ],
+            [
+              840,
+              60
+            ],
+            [
+              840,
+              410
+            ],
+            [
+              260,
+              410
+            ]
+          ],
+          "meters": [
+            5,
+            3
+          ]
+        },
+        "floor": {
+          "quad": [
+            [
+              260,
+              410
+            ],
+            [
+              840,
+              410
+            ],
+            [
+              1100,
+              760
+            ],
+            [
+              0,
+              760
+            ]
+          ],
+          "meters": [
+            5,
+            5
+          ]
+        }
+      },
+      "color": "#d7ddd5"
+    },
+    {
+      "id": "kitchen",
+      "name": "The gathering place",
+      "type": "Kitchen",
+      "description": "Original illustrated sample",
+      "image": "/assets/kitchen-base.svg",
+      "foreground": "/assets/kitchen-front.svg",
+      "width": 1100,
+      "height": 760,
+      "surfaces": {
+        "wall": {
+          "quad": [
+            [
+              260,
+              60
+            ],
+            [
+              840,
+              60
+            ],
+            [
+              840,
+              410
+            ],
+            [
+              260,
+              410
+            ]
+          ],
+          "meters": [
+            5,
+            3
+          ]
+        },
+        "floor": {
+          "quad": [
+            [
+              260,
+              410
+            ],
+            [
+              840,
+              410
+            ],
+            [
+              1100,
+              760
+            ],
+            [
+              0,
+              760
+            ]
+          ],
+          "meters": [
+            5,
+            5
+          ]
+        }
+      },
+      "color": "#e2d5c4"
+    }
+  ],
+  "tiles": [
+    {
+      "id": "dior-berry",
+      "name": "Dior Berry",
+      "finish": "Matt",
+      "collection": "Dior",
+      "color": "#6c808a",
+      "image": "/assets/tiles/whiteeza-matt/dior-berry-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/dior-berry-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/dior-berry-r1.webp",
+        "/assets/tiles/whiteeza-matt/dior-berry-r2.webp",
+        "/assets/tiles/whiteeza-matt/dior-berry-r3.webp",
+        "/assets/tiles/whiteeza-matt/dior-berry-r4.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "dior-cheese",
+      "name": "Dior Cheese",
+      "finish": "Matt",
+      "collection": "Dior",
+      "color": "#c7c4b9",
+      "image": "/assets/tiles/whiteeza-matt/dior-cheese-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/dior-cheese-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/dior-cheese-r1.webp",
+        "/assets/tiles/whiteeza-matt/dior-cheese-r2.webp",
+        "/assets/tiles/whiteeza-matt/dior-cheese-r3.webp",
+        "/assets/tiles/whiteeza-matt/dior-cheese-r4.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "dior-grey",
+      "name": "Dior Grey",
+      "finish": "Matt",
+      "collection": "Dior",
+      "color": "#c1c2bf",
+      "image": "/assets/tiles/whiteeza-matt/dior-grey-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/dior-grey-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/dior-grey-r1.webp",
+        "/assets/tiles/whiteeza-matt/dior-grey-r2.webp",
+        "/assets/tiles/whiteeza-matt/dior-grey-r3.webp",
+        "/assets/tiles/whiteeza-matt/dior-grey-r4.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "dior-mushroom",
+      "name": "Dior Mushroom",
+      "finish": "Matt",
+      "collection": "Dior",
+      "color": "#908b7f",
+      "image": "/assets/tiles/whiteeza-matt/dior-mushroom-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/dior-mushroom-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/dior-mushroom-r1.webp",
+        "/assets/tiles/whiteeza-matt/dior-mushroom-r2.webp",
+        "/assets/tiles/whiteeza-matt/dior-mushroom-r3.webp",
+        "/assets/tiles/whiteeza-matt/dior-mushroom-r4.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "jiva-cream",
+      "name": "Jiva Cream",
+      "finish": "Matt",
+      "collection": "Jiva",
+      "color": "#e4ddd0",
+      "image": "/assets/tiles/whiteeza-matt/jiva-cream-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/jiva-cream-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/jiva-cream-r1.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "jiva-grey",
+      "name": "Jiva Grey",
+      "finish": "Matt",
+      "collection": "Jiva",
+      "color": "#b0aaa5",
+      "image": "/assets/tiles/whiteeza-matt/jiva-grey-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/jiva-grey-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/jiva-grey-r1.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "jiva-mud",
+      "name": "Jiva Mud",
+      "finish": "Matt",
+      "collection": "Jiva",
+      "color": "#b1a591",
+      "image": "/assets/tiles/whiteeza-matt/jiva-mud-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/jiva-mud-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/jiva-mud-r1.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "jiva-white",
+      "name": "Jiva White",
+      "finish": "Matt",
+      "collection": "Jiva",
+      "color": "#f7f5f3",
+      "image": "/assets/tiles/whiteeza-matt/jiva-white-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/jiva-white-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/jiva-white-r1.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "lammy-bianco",
+      "name": "Lammy Bianco",
+      "finish": "Matt",
+      "collection": "Lammy",
+      "color": "#e8e3d8",
+      "image": "/assets/tiles/whiteeza-matt/lammy-bianco-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/lammy-bianco-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/lammy-bianco-r1.webp",
+        "/assets/tiles/whiteeza-matt/lammy-bianco-r2.webp",
+        "/assets/tiles/whiteeza-matt/lammy-bianco-r3.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "lammy-grey",
+      "name": "Lammy Grey",
+      "finish": "Matt",
+      "collection": "Lammy",
+      "color": "#7e7e7f",
+      "image": "/assets/tiles/whiteeza-matt/lammy-grey-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/lammy-grey-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/lammy-grey-r1.webp",
+        "/assets/tiles/whiteeza-matt/lammy-grey-r2.webp",
+        "/assets/tiles/whiteeza-matt/lammy-grey-r3.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "mono-choco",
+      "name": "Mono Choco",
+      "finish": "Matt",
+      "collection": "Mono",
+      "color": "#5a524b",
+      "image": "/assets/tiles/whiteeza-matt/mono-choco-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/mono-choco-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/mono-choco-r1.webp",
+        "/assets/tiles/whiteeza-matt/mono-choco-r2.webp",
+        "/assets/tiles/whiteeza-matt/mono-choco-r3.webp",
+        "/assets/tiles/whiteeza-matt/mono-choco-r4.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "mono-crema",
+      "name": "Mono Crema",
+      "finish": "Matt",
+      "collection": "Mono",
+      "color": "#d2bfa8",
+      "image": "/assets/tiles/whiteeza-matt/mono-crema-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/mono-crema-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/mono-crema-r1.webp",
+        "/assets/tiles/whiteeza-matt/mono-crema-r2.webp",
+        "/assets/tiles/whiteeza-matt/mono-crema-r3.webp",
+        "/assets/tiles/whiteeza-matt/mono-crema-r4.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "mono-smoke",
+      "name": "Mono Smoke",
+      "finish": "Matt",
+      "collection": "Mono",
+      "color": "#93928e",
+      "image": "/assets/tiles/whiteeza-matt/mono-smoke-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/mono-smoke-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/mono-smoke-r1.webp",
+        "/assets/tiles/whiteeza-matt/mono-smoke-r2.webp",
+        "/assets/tiles/whiteeza-matt/mono-smoke-r3.webp",
+        "/assets/tiles/whiteeza-matt/mono-smoke-r4.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "mono-white",
+      "name": "Mono White",
+      "finish": "Matt",
+      "collection": "Mono",
+      "color": "#f0eeec",
+      "image": "/assets/tiles/whiteeza-matt/mono-white-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/mono-white-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/mono-white-r1.webp",
+        "/assets/tiles/whiteeza-matt/mono-white-r2.webp",
+        "/assets/tiles/whiteeza-matt/mono-white-r3.webp",
+        "/assets/tiles/whiteeza-matt/mono-white-r4.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "mono-graphite",
+      "name": "Mono Graphite",
+      "finish": "Matt",
+      "collection": "Mono",
+      "color": "#3c3c3c",
+      "image": "/assets/tiles/whiteeza-matt/mono-graphite-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/mono-graphite-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/mono-graphite-r1.webp",
+        "/assets/tiles/whiteeza-matt/mono-graphite-r2.webp",
+        "/assets/tiles/whiteeza-matt/mono-graphite-r3.webp",
+        "/assets/tiles/whiteeza-matt/mono-graphite-r4.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "pigmento-butter",
+      "name": "Pigmento Butter",
+      "finish": "Matt",
+      "collection": "Pigmento",
+      "color": "#f0e7d8",
+      "image": "/assets/tiles/whiteeza-matt/pigmento-butter-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/pigmento-butter-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/pigmento-butter-r1.webp",
+        "/assets/tiles/whiteeza-matt/pigmento-butter-r2.webp",
+        "/assets/tiles/whiteeza-matt/pigmento-butter-r3.webp",
+        "/assets/tiles/whiteeza-matt/pigmento-butter-r4.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "pigmento-gris",
+      "name": "Pigmento Gris",
+      "finish": "Matt",
+      "collection": "Pigmento",
+      "color": "#bbb7b1",
+      "image": "/assets/tiles/whiteeza-matt/pigmento-gris-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/pigmento-gris-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/pigmento-gris-r1.webp",
+        "/assets/tiles/whiteeza-matt/pigmento-gris-r2.webp",
+        "/assets/tiles/whiteeza-matt/pigmento-gris-r3.webp",
+        "/assets/tiles/whiteeza-matt/pigmento-gris-r4.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "texido-brown",
+      "name": "Texido Brown",
+      "finish": "Matt",
+      "collection": "Texido",
+      "color": "#c1a28d",
+      "image": "/assets/tiles/whiteeza-matt/texido-brown-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/texido-brown-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/texido-brown-r1.webp",
+        "/assets/tiles/whiteeza-matt/texido-brown-r2.webp",
+        "/assets/tiles/whiteeza-matt/texido-brown-r3.webp",
+        "/assets/tiles/whiteeza-matt/texido-brown-r4.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "id": "texido-white",
+      "name": "Texido White",
+      "finish": "Matt",
+      "collection": "Texido",
+      "color": "#dad1ce",
+      "image": "/assets/tiles/whiteeza-matt/texido-white-r1.webp",
+      "thumbnail": "/assets/tiles/whiteeza-matt/texido-white-thumb.webp",
+      "variants": [
+        "/assets/tiles/whiteeza-matt/texido-white-r1.webp",
+        "/assets/tiles/whiteeza-matt/texido-white-r2.webp",
+        "/assets/tiles/whiteeza-matt/texido-white-r3.webp",
+        "/assets/tiles/whiteeza-matt/texido-white-r4.webp"
+      ],
+      "widthCm": 120,
+      "heightCm": 60,
+      "dimensionsConfirmed": false,
+      "sourceImageSize": [
+        2880,
+        1440
+      ],
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    }
+  ],
+  "collection": {
+    "name": "Whiteeza \u00b7 Matt",
+    "source": "Whiteeza-MATT.zip",
+    "imageCount": 62,
+    "dimensionsNote": "120 \u00d7 60 cm is an adjustable demo size, not a verified product specification. Wall/floor suitability is for this visual demo; no installation rating was supplied."
+  }
+}

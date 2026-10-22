@@ -1,0 +1,27 @@
+{
+  "name": "tile-studio",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n API,WEB \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "db:start": "node scripts/start-mongodb.mjs",
+    "db:install": "node scripts/install-mongodb.mjs",
+    "db:seed": "npm run seed -w backend",
+    "db:check": "npm run db:check -w backend",
+    "build": "npm run build -w frontend",
+    "start": "npm start -w backend",
+    "test": "npm run test --workspaces",
+    "test:integration": "npm run test:integration -w backend",
+    "db:photos": "node backend/scripts/import-photo-rooms.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "tile-studio-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node scripts/seed.js",
+    "db:check": "node scripts/check-db.js",
+    "test": "node --test tests/config.test.js tests/generations.test.js tests/preview-image.test.js tests/start-backend.test.js",
+    "test:integration": "node --test tests/integration.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0"
+  }
+}
